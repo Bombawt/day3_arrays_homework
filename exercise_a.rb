@@ -16,17 +16,19 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High",
 # end
 #
 # p counter
+#
+# p stops[2]
+#
+#
+# def find_stop(stops_array, station)
+# for stop in stops_array
+#   if stop == station
+#     return station
+#   end
+# end
+# end
+#
+# result = find_stop(stops, "Falkirk High")
+# p result
 
-p stops[2]
-
-
-def find_stop(stops_array, station)
-for stop in stops_array
-  if stop == station
-    return station
-  end
-end
-end
-
-result = find_stop(stops, "Falkirk High")
-p result
+p stops.reverse
