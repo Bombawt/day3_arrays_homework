@@ -30,5 +30,9 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High",
 #
 # result = find_stop(stops, "Falkirk High")
 # p result
+#
+# p stops.reverse
 
-p stops.reverse
+for stop in stops
+  p stop
+end
