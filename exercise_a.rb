@@ -5,4 +5,5 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High",
    stops.unshift('Glasgow Queen St')
    stops.insert(4,'Polmont')
 
-   p stops
+   
+   p stops.index('Linlithgow')
