@@ -6,7 +6,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High",
 # stops.insert(4,'Polmont')
 
 # p stops.index('Linlithgow')
+# stops.delete("Livingston")
+stops.delete_at(1)
 
 
-stops.delete("Livingston")
+
+
+
 p stops
