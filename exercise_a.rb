@@ -8,11 +8,25 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High",
 # p stops.index('Linlithgow')
 # stops.delete("Livingston")
 # stops.delete_at(1)
+#
+# counter = 0
+#
+# for stop in stops
+#   counter += 1
+# end
+#
+# p counter
 
-counter = 0
+p stops[2]
 
-for stop in stops
-  counter += 1
+
+def find_stop(stops_array, station)
+for stop in stops_array
+  if stop == station
+    return station
+  end
+end
 end
 
-  p counter
+result = find_stop(stops, "Falkirk High")
+p result
